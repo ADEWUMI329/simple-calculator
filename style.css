@@ -64,8 +64,4 @@ form input.operator {
     form .display input {
         font-size: 30px;
     }
-
-    form input.equal {
-        width: 47%;
-    }
 }
