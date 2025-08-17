@@ -50,18 +50,35 @@ form input.operator {
 
 @media (max-width: 500px) {
     .calculator {
-        width: 90%;
-        padding: 15px;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .calculator form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .calculator form input {
-        width: 22%;
-        height: 50px;
-        font-size: 16px;
-        margin: 1%;
+        width: 60px;
+        height: 60px;
+        font-size: 18px;
+        margin: 8px;
     }
 
     form .display input {
-        font-size: 30px;
+        font-size: 32px;
+    }
+
+    form div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    form input.equal {
+        width: 130px;
     }
 }
+
